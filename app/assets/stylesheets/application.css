@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+
+html, body {
+  height: 100%;
+  font-family: Sans-serif;
+}
+
+core-scaffold {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+core-scaffold::shadow core-toolbar {
+  background: lightgreen;
+  color: white;
+}
+
+core-header-panel, core-toolbar {
+  background-color: lightgreen;
+  color: white;
+}
+
+section {
+  height: 25em;
+}
+
+textarea{
+  width: 100%;
+}

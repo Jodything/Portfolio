@@ -1,2 +1,23 @@
-<h1>Houses#index</h1>
-<p>Find me in app/views/houses/index.html.erb</p>
+<core-header-panel mode="seamed" navigation flex>
+
+  <core-toolbar class="tall">
+    <div flex>
+      <h3>Dev</h3>
+    </div>
+  </core-toolbar>
+
+  <core-menu>
+    <core-item icon="accessibility" label="ABOUT"><a href="#About"></a></core-item>
+    <core-item class="sidebar-item" icon="settings-ethernet" label="SKILLS"><a href="#Skills"></a></core-item>
+    <core-item class="sidebar-item" icon="developer-mode-tv" label="PROJECTS"><a href="#Projects"></a></core-item>
+    <core-item class="sidebar-item" icon="mail" label="CONTACT"><a href="#Contact"></a></core-item>
+  </core-menu>
+
+</core-header-panel>
+
+  <div tool>picture will go here</div>
+
+<%= render 'houses/about'%>
+<%= render 'houses/skills'%>
+<%= render 'houses/projects'%>
+<%= render 'houses/contact'%>

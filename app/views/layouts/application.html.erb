@@ -7,9 +7,11 @@
   <%= html_import_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body unresolved>
 
-<%= yield %>
+  <core-scaffold mode="waterfall-tall">
+    <%= yield %>
+  </core-scaffold>
 
 </body>
 </html>

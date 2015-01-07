@@ -1,0 +1,23 @@
+<%= render 'layouts/autogrow_textarea' %>
+
+<!-- Contact Section -->
+<a name="Contact"></a>
+<section content>
+  <h3>CONTACT</h3>
+  <p>Lorem ipsum stuff...</p>
+  <paper-input-decorator class="form-input" label="Name" floatingLabel>
+    <input is="core-input">
+  </paper-input-decorator>
+  <paper-input-decorator class="form-input" label="Email" floatingLabel>
+    <input is="core-input">
+  </paper-input-decorator>
+  <paper-input-decorator class="form-input" label="Subject" floatingLabel>
+    <input is="core-input">
+  </paper-input-decorator>
+  <paper-input-decorator class="form-input" label="Message" floatingLabel>
+    <paper-autogrow-textarea>
+      <textarea></textarea>
+    </paper-autogrow-textarea>
+  </paper-input-decorator>
+  <paper-fab icon="send" class="send-button" title="send"></paper-fab>
+</section>
