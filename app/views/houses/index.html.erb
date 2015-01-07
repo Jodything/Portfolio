@@ -5,12 +5,12 @@
       <%= image_tag "younger_me.jpg", :class => "me" %>
     </div>
     <div flex>
-      <h3>Dev</h3>
+      <h3>Developer</h3>
     </div>
   </core-toolbar>
 
   <core-menu>
-    <core-item icon="accessibility" label="ABOUT"><a href="#About"></a></core-item>
+    <core-item icon="accessibility" label="ABOUT" default><a href="#About"></a></core-item>
     <core-item class="sidebar-item" icon="settings-ethernet" label="SKILLS"><a href="#Skills"></a></core-item>
     <core-item class="sidebar-item" icon="developer-mode-tv" label="PROJECTS"><a href="#Projects"></a></core-item>
     <core-item class="sidebar-item" icon="mail" label="CONTACT"><a href="#Contact"></a></core-item>
@@ -18,7 +18,7 @@
 
 </core-header-panel>
 
-  <div tool>picture will go here</div>
+  <span tool><h1>Jody Johnson</h1></span>
 
 <section>
   <%= render 'houses/about'%>

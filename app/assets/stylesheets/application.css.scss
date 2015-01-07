@@ -14,6 +14,9 @@
  *= require_self
  */
 
+ $white: #fff;
+ $grey: #eee;
+
 html, body {
   height: 100%;
   font-family: Sans-serif;
@@ -29,16 +32,12 @@ core-scaffold {
 
 core-scaffold::shadow core-toolbar {
   background: lightgreen;
-  color: white;
+  color: $white;
 }
 
 core-header-panel, core-toolbar {
   background-color: lightgreen;
-  color: white;
-}
-
-section div {
-  height: 25em;
+  color: $white;
 }
 
 textarea{
@@ -56,9 +55,9 @@ core-menu {
 }
 
 core-menu .core-selected {
-  background: linear-gradient(90deg, lightgreen, #eee);
-  /*border-top: .1em solid white;
-  border-bottom: .1em solid white;*/
+  background: linear-gradient(90deg, lightgreen, $grey);
+  /*border-top: .1em solid $white;
+  border-bottom: .1em solid $white;*/
 }
 
 core-toolbar {
@@ -69,4 +68,14 @@ core-toolbar {
   width: 100%;
   height: auto;
   /*border-radius: 50%;*/
+}
+
+paper-shadow {
+  height: 25em;
+  width: 90%;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+  padding-left: 1em;
+  padding-top: 1em;
+  background-color: $white;
 }
