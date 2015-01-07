@@ -1,6 +1,9 @@
 <core-header-panel mode="seamed" navigation flex>
 
   <core-toolbar class="tall">
+    <div vertical layout flex>
+      <%= image_tag "younger_me.jpg", :class => "me" %>
+    </div>
     <div flex>
       <h3>Dev</h3>
     </div>
@@ -17,7 +20,9 @@
 
   <div tool>picture will go here</div>
 
-<%= render 'houses/about'%>
-<%= render 'houses/skills'%>
-<%= render 'houses/projects'%>
-<%= render 'houses/contact'%>
+<section>
+  <%= render 'houses/about'%>
+  <%= render 'houses/skills'%>
+  <%= render 'houses/projects'%>
+  <%= render 'houses/contact'%>
+</section>

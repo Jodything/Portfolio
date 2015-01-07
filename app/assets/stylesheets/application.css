@@ -37,10 +37,36 @@ core-header-panel, core-toolbar {
   color: white;
 }
 
-section {
+section div {
   height: 25em;
 }
 
 textarea{
   width: 100%;
+}
+
+.core-selected {
+  background-color: cyan;
+  color: yellow;
+  width: 100%;
+}
+
+core-menu {
+  margin-right: 0;
+}
+
+core-menu .core-selected {
+  background: linear-gradient(90deg, lightgreen, #eee);
+  /*border-top: .1em solid white;
+  border-bottom: .1em solid white;*/
+}
+
+core-toolbar {
+  padding-top: 3em;
+}
+
+.me {
+  width: 100%;
+  height: auto;
+  /*border-radius: 50%;*/
 }
