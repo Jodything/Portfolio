@@ -78,9 +78,15 @@ paper-shadow {
   margin-left: 1.5em;
   padding-left: 1em;
   padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 1em;
   background-color: $white;
 }
 
 .card {
   text-align: center;
+}
+
+section {
+  padding-bottom: 3em;
 }
