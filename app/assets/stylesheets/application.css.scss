@@ -65,9 +65,10 @@ core-toolbar {
 }
 
 .me {
-  width: 100%;
+  width: 40%;
   height: auto;
-  /*border-radius: 50%;*/
+  border-radius: 50%;
+  margin-top: 1em;
 }
 
 paper-shadow {
@@ -78,4 +79,8 @@ paper-shadow {
   padding-left: 1em;
   padding-top: 1em;
   background-color: $white;
+}
+
+.card {
+  text-align: center;
 }
