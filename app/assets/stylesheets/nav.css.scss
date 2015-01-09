@@ -1,0 +1,40 @@
+$white: #fff;
+$grey: #eee;
+
+///////////////////////////////////////////
+
+core-scaffold::shadow core-toolbar {
+  background: lightgreen;
+  color: $white;
+}
+core-header-panel, core-toolbar {
+  background-color: lightgreen;
+  color: $white;
+}
+core-menu {
+  margin-right: 0;
+}
+core-menu .core-selected {
+  background: linear-gradient(90deg, lightgreen, $grey);
+  /*border-top: .1em solid $white;
+  border-bottom: .1em solid $white;*/
+}
+core-toolbar {
+  padding-top: 3em;
+}
+core-scaffold {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.avatar {
+  width: 40%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 1em;
+}
+span h1 {
+  font-size: 140%;
+}

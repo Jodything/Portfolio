@@ -1,0 +1,14 @@
+@media (max-width: 366px) {
+  span h1 {
+    font-size: 150%;
+  }
+  paper-shadow {
+    margin-left: .1em;
+  }
+}
+
+@media (max-width: 750px) {
+  core-scaffold::shadow core-header-panel::shadow div#mainContainer {
+    padding-right: 1.5em;
+  }
+}

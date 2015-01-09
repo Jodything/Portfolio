@@ -1,0 +1,50 @@
+////* Form Input Fields*////
+paper-input.narrow {
+  width: 150px;
+}
+
+// Input text color
+// .form-input {
+//   color: cyan;
+// }
+//
+// .form-input /deep/ ::-webkit-input-placeholder {
+//   color: blue;
+// }
+//
+// .form-input /deep/ ::-moz-placeholder {
+//   color: red;
+// }
+//
+// .form-input /deep/ :-ms-input-placeholder {
+//   color: orange;
+// }
+//
+// .form-input /deep/ .label-text,
+// .form-input /deep/ .error {
+//   color: purple;
+// }
+
+.form-input /deep/ .unfocused-underline {
+  // background-color: black;
+  width: 95%;
+}
+
+// Input field line colors
+// .form-input[focused] /deep/ .floated-label .label-text {
+//   color: green;
+// }
+
+.form-input /deep/ .focused-underline {
+  // background-color: brown;
+  width: 95%;
+}
+
+// Input flash cursor
+// .form-input /deep/ .cursor {
+//   background-color: violet;
+// }
+
+textarea{
+  width: 100%;
+}

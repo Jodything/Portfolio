@@ -1,0 +1,42 @@
+// Place all the styles related to the Houses controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(http://fonts.googleapis.com/css?family=Rubik+Mono+One|NTR);
+
+$white: #fff;
+$grey: #eee;
+
+/////////////////////////
+
+html, body {
+  height: 100%;
+  font-family: 'NTR', "HelveticaNeue-Light", Helvetica, Arial;
+  -webkit-font-smoothing: antialiased;
+}
+h1,h2,h3{
+  font-family: 'Rubik Mono One', 'HelveticaNeue-Light', Helvetica, Arial;
+}
+paper-shadow {
+  min-height: 25em;
+  height: auto;
+  width: 90%;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: $white;
+  text-align:center;
+}
+paper-shadow p {
+  padding-left: 1.5em;
+  padding-right: 2em;
+}
+section {
+  padding-bottom: 3em;
+}
+.core-selected {
+  color: navy;
+  width: 100%;
+}
