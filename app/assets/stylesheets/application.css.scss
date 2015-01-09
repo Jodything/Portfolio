@@ -72,7 +72,8 @@ core-toolbar {
 }
 
 paper-shadow {
-  height: 25em;
+  min-height: 25em;
+  height: auto;
   width: 90%;
   margin-top: 1.5em;
   margin-left: 1.5em;
