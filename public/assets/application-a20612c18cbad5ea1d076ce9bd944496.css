@@ -1,0 +1,153 @@
+/* line 7, /Users/Home/Documents/Rails/me/app/assets/stylesheets/contact.css.scss */
+paper-input.narrow {
+  width: 150px;
+}
+
+/* line 10, /Users/Home/Documents/Rails/me/app/assets/stylesheets/contact.css.scss */
+paper-fab {
+  background-color: #61fbf0;
+}
+
+/* line 35, /Users/Home/Documents/Rails/me/app/assets/stylesheets/contact.css.scss */
+.form-input /deep/ .unfocused-underline {
+  width: 95%;
+}
+
+/* line 45, /Users/Home/Documents/Rails/me/app/assets/stylesheets/contact.css.scss */
+.form-input /deep/ .focused-underline {
+  width: 95%;
+}
+
+/* line 55, /Users/Home/Documents/Rails/me/app/assets/stylesheets/contact.css.scss */
+textarea {
+  width: 100%;
+}
+/* line 12, /Users/Home/Documents/Rails/me/app/assets/stylesheets/main.css.scss */
+html, body {
+  height: 100%;
+  font-family: 'NTR', "HelveticaNeue-Light", Helvetica, Arial;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 17, /Users/Home/Documents/Rails/me/app/assets/stylesheets/main.css.scss */
+h1, h2, h3 {
+  font-family: 'Rubik Mono One', 'HelveticaNeue-Light', Helvetica, Arial;
+  color: #00887E;
+}
+
+/* line 21, /Users/Home/Documents/Rails/me/app/assets/stylesheets/main.css.scss */
+paper-shadow {
+  min-height: 25em;
+  height: auto;
+  width: 90%;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: white;
+  text-align: center;
+}
+
+/* line 33, /Users/Home/Documents/Rails/me/app/assets/stylesheets/main.css.scss */
+paper-shadow p {
+  padding-left: 1.5em;
+  padding-right: 2em;
+}
+
+/* line 37, /Users/Home/Documents/Rails/me/app/assets/stylesheets/main.css.scss */
+section {
+  padding-bottom: 3em;
+}
+
+/* line 40, /Users/Home/Documents/Rails/me/app/assets/stylesheets/main.css.scss */
+.core-selected {
+  color: #61FBF0;
+  width: 100%;
+}
+@media (max-width: 366px) {
+  /* line 2, /Users/Home/Documents/Rails/me/app/assets/stylesheets/mobile.css.scss */
+  span h1 {
+    font-size: 150%;
+  }
+
+  /* line 5, /Users/Home/Documents/Rails/me/app/assets/stylesheets/mobile.css.scss */
+  paper-shadow {
+    margin-left: .1em;
+  }
+}
+@media (max-width: 750px) {
+  /* line 11, /Users/Home/Documents/Rails/me/app/assets/stylesheets/mobile.css.scss */
+  core-scaffold::shadow core-header-panel::shadow div#mainContainer {
+    padding-right: 1.5em;
+  }
+}
+/* line 8, /Users/Home/Documents/Rails/me/app/assets/stylesheets/nav.css.scss */
+core-scaffold::shadow core-toolbar {
+  background: #3abeff;
+  color: white;
+}
+
+/* line 12, /Users/Home/Documents/Rails/me/app/assets/stylesheets/nav.css.scss */
+core-header-panel, core-toolbar {
+  background-color: #3abeff;
+  color: white;
+}
+
+/* line 16, /Users/Home/Documents/Rails/me/app/assets/stylesheets/nav.css.scss */
+core-menu {
+  margin-right: 0;
+}
+
+/* line 19, /Users/Home/Documents/Rails/me/app/assets/stylesheets/nav.css.scss */
+core-menu .core-selected {
+  background: linear-gradient(90deg, #3abeff, #eeeeee);
+}
+
+/* line 22, /Users/Home/Documents/Rails/me/app/assets/stylesheets/nav.css.scss */
+core-toolbar {
+  padding-top: 3em;
+}
+
+/* line 25, /Users/Home/Documents/Rails/me/app/assets/stylesheets/nav.css.scss */
+core-scaffold {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 32, /Users/Home/Documents/Rails/me/app/assets/stylesheets/nav.css.scss */
+.avatar img {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 1.5em;
+}
+
+/* line 38, /Users/Home/Documents/Rails/me/app/assets/stylesheets/nav.css.scss */
+span h1 {
+  font-size: 140%;
+  color: #61fbf0;
+}
+
+/* line 42, /Users/Home/Documents/Rails/me/app/assets/stylesheets/nav.css.scss */
+core-toolbar h3 {
+  color: #61fbf0;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if  any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
