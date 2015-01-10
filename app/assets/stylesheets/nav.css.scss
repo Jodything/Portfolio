@@ -1,21 +1,23 @@
 $white: #fff;
 $grey: #eee;
+$secondary: #61FBF0;
+$nav: #3ABEFF;
 
 ///////////////////////////////////////////
 
 core-scaffold::shadow core-toolbar {
-  background: lightgreen;
+  background: $nav;
   color: $white;
 }
 core-header-panel, core-toolbar {
-  background-color: lightgreen;
+  background-color: $nav;
   color: $white;
 }
 core-menu {
   margin-right: 0;
 }
 core-menu .core-selected {
-  background: linear-gradient(90deg, lightgreen, $grey);
+  background: linear-gradient(90deg, $nav, $grey);
   /*border-top: .1em solid $white;
   border-bottom: .1em solid $white;*/
 }
@@ -29,12 +31,16 @@ core-scaffold {
   bottom: 0;
   left: 0;
 }
-.avatar {
-  width: 40%;
+.avatar img{
+  width:50%;
   height: auto;
   border-radius: 50%;
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 span h1 {
   font-size: 140%;
+  color: $secondary;
+}
+core-toolbar h3 {
+  color: $secondary;
 }

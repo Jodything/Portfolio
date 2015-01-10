@@ -1,8 +1,15 @@
+$white: #fff;
+$grey: #eee;
+$secondary: #61FBF0;
+$nav: #3ABEFF;
+
 ////* Form Input Fields*////
 paper-input.narrow {
   width: 150px;
 }
-
+paper-fab {
+  background-color: $secondary;
+}
 // Input text color
 // .form-input {
 //   color: cyan;
