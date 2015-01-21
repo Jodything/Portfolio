@@ -1,4 +1,5 @@
-<!-- <%= render 'layouts/autogrow_textarea' %>
+<% @contact ||= Contact.new %>
+<%= render 'layouts/autogrow_textarea' %>
 
 
 <a name="Contact"></a>
@@ -8,25 +9,30 @@
     <h2>CONTACT</h2>
     <p>Drop me a line. I'm also availabe on <a href="https://github.com/Jodything">Github</a> or email me below at Jody.EP.Johnson@gmail.com</p>
 
+  <%= form_for @contact do |f| %>
     <paper-input-decorator class="form-input" label="Name" floatingLabel>
-      <input is="core-input">
+      <%= f.text_field :name %>
     </paper-input-decorator>
 
     <paper-input-decorator class="form-input" label="Email" floatingLabel>
-      <input is="core-input">
-    </paper-input-decorator>
-
-    <paper-input-decorator class="form-input" label="Subject" floatingLabel>
-      <input is="core-input">
+      <%= f.text_field :email, :required => true %>
     </paper-input-decorator>
 
     <paper-input-decorator class="form-input" label="Message" floatingLabel>
       <paper-autogrow-textarea>
-        <textarea></textarea>
+        <%= f.text_area :message, :as => :text, :required => true %>
       </paper-autogrow-textarea>
     </paper-input-decorator>
 
-    <paper-fab icon="send" class="send-button" title="send"></paper-fab>
+    <div style="display:none;">
+      <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
+    </div>
+
+    <!-- <paper-fab icon="send" class="send-button" title="send"></paper-fab> -->
+    <%= f.button '', :class => "button-fab" do %>
+      <paper-fab icon="send" class="send-button" title="send"></paper-fab>
+    <% end %>
+  <% end %>
 
   </paper-shadow>
-</div> -->
+</div>

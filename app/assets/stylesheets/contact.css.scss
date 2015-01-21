@@ -16,6 +16,10 @@ paper-fab {
   background-color: $tri;
   color: $secondary;
 }
+.button-fab {
+  border: none;
+  background: transparent;
+}
 
 // Input text color
 .form-input {
