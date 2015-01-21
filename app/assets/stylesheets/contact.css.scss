@@ -5,51 +5,56 @@ $nav: #3ABEFF;
 $tri: #00887E;
 
 div.contacts-page paper-input-decorator.form-input {
-  padding-left: 1em;
+  margin-left: 1.5em;
 }
 
 ////* Form Input Fields*////
-paper-input.narrow {
-  width: 150px;
-}
+// paper-input.narrow {
+//   width: 150px;
+// }
 paper-fab {
   background-color: $tri;
   color: $secondary;
 }
+
 // Input text color
-// .form-input {
-//   color: cyan;
-// }
-//
-// .form-input /deep/ ::-webkit-input-placeholder {
-//   color: blue;
-// }
-//
+.form-input {
+  // color: red;
+}
+
+.form-input /deep/ ::-webkit-input-placeholder {
+  color: $tri;
+}
+paper-input-decorator::shadow div.input-body {
+  margin-right: 5%;
+}
+
 // .form-input /deep/ ::-moz-placeholder {
-//   color: red;
+//   color: purple;
 // }
 //
 // .form-input /deep/ :-ms-input-placeholder {
 //   color: orange;
 // }
-//
-// .form-input /deep/ .label-text,
-// .form-input /deep/ .error {
-//   color: purple;
-// }
+
+.form-input /deep/ .label-text,
+.form-input /deep/ .error {
+  color: $tri;
+}
 
 .form-input /deep/ .unfocused-underline {
-  // background-color: black;
+  // background-color: yellow;
   width: 95%;
 }
 
 // Input field line colors
-// .form-input[focused] /deep/ .floated-label .label-text {
-//   color: green;
-// }
+.form-input[focused] /deep/ .floated-label .label-text {
+  color: $secondary;
+  font-size: x-large;
+}
 
 .form-input /deep/ .focused-underline {
-  // background-color: brown;
+  background-color: $tri;
   width: 95%;
 }
 
