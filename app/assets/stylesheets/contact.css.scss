@@ -6,6 +6,7 @@ $tri: #00887E;
 
 div.contacts-page paper-input-decorator.form-input {
   margin-left: 1.5em;
+  text-align: left;
 }
 
 ////* Form Input Fields*////
@@ -17,6 +18,7 @@ paper-fab {
   color: $secondary;
 }
 .button-fab {
+  margin-top: 2em;
   border: none;
   background: transparent;
 }
