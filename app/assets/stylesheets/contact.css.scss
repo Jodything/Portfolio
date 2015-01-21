@@ -4,6 +4,10 @@ $secondary: #61FBF0;
 $nav: #3ABEFF;
 $tri: #00887E;
 
+div.contacts-page paper-input-decorator.form-input {
+  padding-left: 1em;
+}
+
 ////* Form Input Fields*////
 paper-input.narrow {
   width: 150px;

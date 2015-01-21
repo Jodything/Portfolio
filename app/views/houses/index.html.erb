@@ -17,7 +17,9 @@
 </core-header-panel>
 
   <span tool flex><h1>Jody Johnson</h1></span>
-  <span tool end-justified><core-icon icon="social:post-github"></core-icon></span>
+
+  <span tool end-justified><%= link_to "https://github.com/Jodything", :target => "_blank" do %><core-icon icon="social:post-github"><% end %></core-icon></span>
+
 
 <section>
   <%= render 'houses/about'%>

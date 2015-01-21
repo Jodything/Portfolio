@@ -15,6 +15,11 @@ html, body {
   font-family: 'NTR', "HelveticaNeue-Light", Helvetica, Arial;
   -webkit-font-smoothing: antialiased;
 }
+body{
+  p {
+    line-height: 1.5em;
+  }
+}
 h1,h2,h3{
   font-family: 'Rubik Mono One', 'HelveticaNeue-Light', Helvetica, Arial;
   color: $tri;
@@ -25,7 +30,6 @@ paper-shadow {
   width: 90%;
   margin-top: 1.5em;
   margin-left: 1.5em;
-  padding-left: 1em;
   padding-top: 1em;
   padding-bottom: 1em;
   background-color: $white;
@@ -33,7 +37,7 @@ paper-shadow {
 }
 paper-shadow p {
   padding-left: 1.5em;
-  padding-right: 2em;
+  padding-right: 1.5em;
 }
 section {
   padding-bottom: 3em;
@@ -41,4 +45,8 @@ section {
 .core-selected {
   color: #61FBF0;
   width: 100%;
+}
+.underline {
+  margin: 0 1.5em;
+  border-bottom: .1em solid $tri;
 }
