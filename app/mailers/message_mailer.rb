@@ -6,6 +6,6 @@ class MessageMailer < ActionMailer::Base
   def new_message(message)
     @message = message
 
-    mail subject: "Message from #{message.name}"
+    mail subject: "Email from #{message.name} on JodyJohnsonIsMe.herokuapp.com"
   end
 end
