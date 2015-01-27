@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Me</title>
+  <title>Jody Johnson | Web Developer</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Web Developer in the Chattanooga TN area. This my portfolio website displaying some of my work and how to contact me">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= html_import_tag "application", "data-turbolinks-track" => true %>
@@ -11,7 +14,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body unresolved fullbleed vertical layout>
-
+  <script>
+  var isChromium = window.chrome,
+  vendorName = window.navigator.vendor;
+  if(isChromium !== null && isChromium !== undefined && vendorName === "Google Inc.") {
+    // is Google chrome
+  } else {
+    alert('Sorry, this website is not supported on this browser as it uses polymer elements. Please open the site using Google Chrome on desktop or mobile for a proper viewing experience.');
+  }
+  </script>
+  
   <core-scaffold mode="waterfall-tall">
     <%= yield %>
   </core-scaffold>
